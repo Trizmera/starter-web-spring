@@ -1,7 +1,7 @@
 package com.example.repository;
 
 import com.example.model.Tutorial;
-import com.sun.tools.javac.util.List;
+import java.util.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TutorialRepository extends JpaRepository<Tutorial, Long> {
